@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@300&family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+    <title>Calculadora JS</title>
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .container{
+            width: 300px;
+            height: 225px;
+            background-color: aliceblue;
+            border-radius: 15px;
+            text-align: center;
+        }
+        button{
+            width: 155px;
+            height: 50px;
+            background-color: rgb(12, 185, 12);
+            border-radius: 25px;
+            border-color: rgb(12, 185, 12);
+        }
+        .container button:hover{
+            border-radius: 25px;
+            background-color: rgb(182, 13, 13);
+            border-color: rgb(182, 13, 13);
+        }
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        h2{
+            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Roboto Mono', monospace;
+            font-family: 'Saira Condensed', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Colores Background</h1>
+        <h2></h2>
+        <button onclick="setColor()">Update Color</button>
+    </div>
+    <script src="./coloresbg.js"></script>
+</body>
+</html>
